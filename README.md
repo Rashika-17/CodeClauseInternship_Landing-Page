@@ -1,1 +1,1 @@
-# CodeClauseInternship_Landing-Page
+# Codeclause_LandingPage

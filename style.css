@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+     scroll-behavior: smooth;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#logo{
+    margin: 10px 34px;
+
+}
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+}
+#navbar{
+    position: absolute;
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+#navbar::before{
+    content: "";
+    background-color: Black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: azure;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    transition-delay: 150ms;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{
+    content:"";
+    background: url(food.jpg);
+    position: absolute;
+    height: 114%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89; 
+}
+#home h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+#home p{
+    font-family: cursive;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+/* Services Section */
+#services{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 34px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background: #efcfcf;
+}
+#services .box img{
+height: 160px;
+margin: auto;
+display: block;
+}
+#client-section{
+    height: 344px;
+    position: relative;
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+#clients img{
+   height: 129px;
+}
+#client-items{
+    padding: px;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url(food4.webp);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.89;
+
+}
+#contact{
+    position: relative;
+}
+#contact h1{
+    color: rgb(255, 0, 81);
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url(Contactphoto.webp) no-repeat center center/cover;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+#contact-box form{
+    width: 40%;
+}
+.form-group label{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+}
+.h-secondary{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    border-radius:10px ;
+    background-color: brown;
+    color: aliceblue;
+    margin: 17px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+    margin: 10px;
+}
+#jucname{
+    color: yellow;
+}
+
+
+
+
